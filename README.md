@@ -4,36 +4,36 @@
 
 This repository contains scripts of the proteomics analysis of LCM-spatial proteomics in leukoencephalopathy with calcification and cysts:
 
-**Molecular Profiling Informs Targeted Treatment in Ultra-Rare Leukoencephalopathy with calcifications and cysts**. 
+**Proteomic-Guided Targeted Treatment of Leukencephalopathy with Calcification and Cysts**. 
 
 
 
 ### Prerequisites
 
-- Computing environment with >= 2 GB RAM and >= 1 CPU cores (recommended)  
-- RStudio Server or Rstudio Desktop running with R4.3.3 or higher 
-
-Please see https://www.r-project.org/ 
+- Computing environment with >= 4 GB RAM and >= 4 CPU cores (recommended)  
+- RStudio Server or Rstudio Desktop running with R 4.3.4 or higher (see https://www.r-project.org/)
 
 ### Code Execution
 
-The code (Notebook_LCC_analysis_20250623.Rmd) can be run as from within R.
+The code (proteomic_analysis.R and gviz_snord118.R) can be run as from within R.
 
 
 ## Contributing
 
-Nils Briel1,2#, Alexander Köpp1,2#, Hannah Meister1,2, Marcel Bühler1,2, Tommaso Nicoletti3, Christine Stadelmann4, Hans H. Jung1,2, Michael Weller1,2, Kai Michael Schubert1,2*, Tobias Weiss1,2*
+Nils Briel1,2#, Alexander Köpp1,2#, Hanna M. Meister1,2, Marcel Bühler1,2, Tommaso Nicoletti3, Christine Stadelmann4,, Martin Hüllner5, Dennis Kraemer2,6, Tibor Hortbagyi7, Hans H. Jung1,2, Michael Weller1,2, Kai Michael Schubert1,2, Tobias Weiss1,2,
 
-1. University Hospital Zurich, Department of Neurology, Zurich, Switzerland
-2. University of Zurich, Faculty of Medicine, Zurich, Switzerland
-3. Lariboisière Hospital, APHP- Paris Cité University, Paris, France
-4. University Medical Center Göttingen, Göttingen, Germany
-
+1	Department of Neurology, University Hospital Zurich, 8091 Zurich, Switzerland
+2	Neuroscience Center Zurich, University of Zurich, 8057 Zurich, Switzerland
+3	Lariboisière Hospital, Assistance Publique Hôpitaux de Paris, Paris Cité University, 75010 Paris, France
+4	Institute for Neuropathology University Medical Center Göttingen, 37075 Göttingen, Germany
+5	Department of Nuclear Medicine, University Hospital Zurich, 8091 Zurich, Switzerland
+6	Institute of Medical Genetics, University of Zurich, 8952 Schlieren, Switzerland
+7	Institute of Neuropathology, University Hospital Zurich, 8091 Zurich, Switzerland
 
 #equal contribution
 *equal contribution
 
-
+Correspondence to Tobias Weiss (tobias.weiss@usz.ch, manuscript) or Nils Briel (nils.briel@usz.ch, repository)
 Department of Neurology \
 University Hospital Zurich \
 University of Zurich \
@@ -42,12 +42,13 @@ Switzerland
 
 ## Maintenance Git-Hub Repository
 
-* Dr. Nils Briel - [nes-b](https://github.com/nes-b)
+* Nils Briel - [nes-b](https://github.com/nes-b)
 
 
 ## Citation
 
 If you use parts of this workflow, please cite:
+* the publication [TBD]
 * this repository: https://github.com/nes-b/LCC/ 
 
 
@@ -63,5 +64,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-* We are gratefull to all people who supported this research. 
+* We are grateful to all people who supported this research. 
 
